@@ -9,4 +9,52 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: forestgreen;
+  color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  background-color: darkblue;
+}
+
+.dealers-area {
+  background-color: purple;
+  display: flex;
+}
+
+.dealers-hand-section {
+  background-color: black;
+  display: flex;
+}
+
+.message-area {
+  height: 5rem;
+  background-color: chocolate;
+  display: flex;
+}
+
+.players-area {
+  background-color: red;
+  display: flex;
+}
+
+.player-left-section {
+  display: flex;
+  align-items: center;
+}
+
+.players-hand-section {
+  text-align: center;
+}
+
+.player-cards-section {
+  display: flex;
+  background-color: gray;
+  padding: 4rem;
+}
+
+.player-cards-section img {
+  padding: 1rem;
+  background-color: pink;
 }
